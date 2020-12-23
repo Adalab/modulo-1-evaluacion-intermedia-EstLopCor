@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 .nav {
   background-color: white;
@@ -11,10 +11,13 @@
   position: fixed;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 .img {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 .ul {
@@ -22,11 +25,8 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  font-size: 16px;
-}
-.aimg {
-  display: flex;
   align-items: center;
+  font-size: 16px;
 }
 .a {
   text-decoration: none;
@@ -35,12 +35,13 @@
   font-family: "Rubik", sans-serif;
 }
 .main {
-  height: 600px;
+  height: 100vh;
   width: 100%;
   background-color: #3cdbc0;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 .h1 {
   display: flex;
