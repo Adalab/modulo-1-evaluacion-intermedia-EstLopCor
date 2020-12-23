@@ -48,6 +48,17 @@
   width: 200px;
   font-family: "Rubik", sans-serif;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+}
+@media all and (min-width: 768px) {
+  .nav {
+    display: inline;
+  }
+  .ul {
+    align-items: flex-end;
+  }
+  .h1 {
+    font-size: 40px;
+  }
 }
